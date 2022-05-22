@@ -1,0 +1,9 @@
+$body-bg: rgb(27, 27, 27);
+$body-color: white;
+$primary: green;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
